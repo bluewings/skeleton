@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html {
+  overflow-y: scroll; }
+
+body {
+  padding: 0 !important;
+  margin: 0;
+  background-color: white;
+  word-break: break-all;
+  font-family: Nanum Gothic,AppleGothic,sans-serif;
+  font-size: 12px; }
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.navbar {
+  font-family: Play;
+  min-height: 0; }
+  .navbar .navbar-brand {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    height: auto; }
+  .navbar.navbar-fixed-top {
+    border-bottom: 1px solid #ccc; }
+    .navbar.navbar-fixed-top .navbar-nav.target-list > li > a {
+      padding: 6px 10px 8px;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff !important; }
+    .navbar.navbar-fixed-top .navbar-nav > li > a {
+      padding: 5px 6px; }
+    .navbar.navbar-fixed-top .btn-area {
+      /*padding: 6px 10px 3px;*/
+      font-size: 16px !important;
+      float: left; }
+      .navbar.navbar-fixed-top .btn-area > a {
+        color: #777;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px 8px 1px 16px;
+        border-right: 1px dotted gray;
+        vertical-align: bottom !important; }
+        .navbar.navbar-fixed-top .btn-area > a .glyphicon {
+          top: -2px; }
+        .navbar.navbar-fixed-top .btn-area > a .txt {
+          font-size: 12px !important;
+          padding-left: 8px;
+          display: inline-block;
+          width: 0;
+          white-space: nowrap;
+          overflow: hidden;
+          -webkit-transition: all 0.5s; }
+        .navbar.navbar-fixed-top .btn-area > a:hover span.txt {
+          width: 60px; }
+
+/*# sourceMappingURL=style.css.map */
